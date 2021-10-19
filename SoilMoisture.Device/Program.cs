@@ -10,7 +10,7 @@ namespace SoilMoisture.Device
     class Program
     {
         private static DeviceClient deviceClient;
-        private readonly static string connectionString = "HostName=SoilMoisture.azure-devices.net;DeviceId=ashirwad-simulator;SharedAccessKey=jIKMUr+5+qYrd9dhPFTWm8bYawxiHyI4nmb6Y/XP4mc=";
+        private readonly static string connectionString = "";
         static void Main(string[] args)
         {
             Console.WriteLine("Sending Messages");
